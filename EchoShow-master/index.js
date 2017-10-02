@@ -129,8 +129,7 @@ var handlers = {
     // var state = this.event.request.intent.slots.state.value;
     // var endpoint = "https://mdotqa:bNV35gGvLlD2Y8D0YVke@api-qa-origin.autotrader.com/rest/v0/listings?makeCodeList="+ make;
 
-    var endpoint = "https://www.autotrader.com/rest/searchresults/base?makeCodeList="+ makeCode + "&" + city
-        +"&searchRadius=25&listingFeatures=onlyPhotos" ;
+    var endpoint = "yourEndPoint" ;
     
     console.log(endpoint);
 
